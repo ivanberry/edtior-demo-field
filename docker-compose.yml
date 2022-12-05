@@ -1,6 +1,8 @@
-version: 3.8
+version: '3.7'
 
 services:
-  name: editor-demo-field
-  build: .
-  ports: 8081:3000
+  web:
+    build: .
+    container_name: editor-demo
+    ports:
+      - "8081:3000"
