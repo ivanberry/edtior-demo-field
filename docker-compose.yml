@@ -1,0 +1,6 @@
+version: 3.8
+
+services:
+  name: editor-demo-field
+  build: .
+  ports: 8081:3000
